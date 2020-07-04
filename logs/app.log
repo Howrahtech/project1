@@ -1,0 +1,45 @@
+2020-06-28 19:13:56,873 INFO c.r.m.CtsApplication [restartedMain] Starting CtsApplication on DELL-PC with PID 7332 (C:\Users\DELL\Desktop\Lesson_2\cts\target\classes started by DELL in C:\Users\DELL\Desktop\Lesson_2\cts)
+2020-06-28 19:13:56,897 DEBUG c.r.m.CtsApplication [restartedMain] Running with Spring Boot v2.3.0.BUILD-SNAPSHOT, Spring v5.2.6.BUILD-SNAPSHOT
+2020-06-28 19:13:56,898 INFO c.r.m.CtsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-28 19:14:03,714 DEBUG c.r.m.M.j.JwtTokenAuthorizationOncePerRequestFilter [restartedMain] Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+2020-06-28 19:14:09,729 INFO c.r.m.CtsApplication [restartedMain] Started CtsApplication in 14.291 seconds (JVM running for 17.74)
+2020-06-28 19:19:20,952 INFO c.r.m.CtsApplication [restartedMain] Starting CtsApplication on DELL-PC with PID 7332 (C:\Users\DELL\Desktop\Lesson_2\cts\target\classes started by DELL in C:\Users\DELL\Desktop\Lesson_2\cts)
+2020-06-28 19:19:20,954 DEBUG c.r.m.CtsApplication [restartedMain] Running with Spring Boot v2.3.0.BUILD-SNAPSHOT, Spring v5.2.6.BUILD-SNAPSHOT
+2020-06-28 19:19:20,954 INFO c.r.m.CtsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-28 19:19:22,319 DEBUG c.r.m.M.j.JwtTokenAuthorizationOncePerRequestFilter [restartedMain] Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+2020-06-28 19:19:23,068 INFO c.r.m.CtsApplication [restartedMain] Started CtsApplication in 2.309 seconds (JVM running for 331.074)
+2020-06-28 19:20:32,770 INFO c.r.m.CtsApplication [restartedMain] Starting CtsApplication on DELL-PC with PID 7332 (C:\Users\DELL\Desktop\Lesson_2\cts\target\classes started by DELL in C:\Users\DELL\Desktop\Lesson_2\cts)
+2020-06-28 19:20:32,772 DEBUG c.r.m.CtsApplication [restartedMain] Running with Spring Boot v2.3.0.BUILD-SNAPSHOT, Spring v5.2.6.BUILD-SNAPSHOT
+2020-06-28 19:20:32,772 INFO c.r.m.CtsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-28 19:20:33,845 DEBUG c.r.m.M.j.JwtTokenAuthorizationOncePerRequestFilter [restartedMain] Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+2020-06-28 19:20:34,667 INFO c.r.m.CtsApplication [restartedMain] Started CtsApplication in 2.034 seconds (JVM running for 402.672)
+2020-06-28 19:21:34,602 INFO c.r.m.CtsApplication [restartedMain] Starting CtsApplication on DELL-PC with PID 7332 (C:\Users\DELL\Desktop\Lesson_2\cts\target\classes started by DELL in C:\Users\DELL\Desktop\Lesson_2\cts)
+2020-06-28 19:21:34,604 DEBUG c.r.m.CtsApplication [restartedMain] Running with Spring Boot v2.3.0.BUILD-SNAPSHOT, Spring v5.2.6.BUILD-SNAPSHOT
+2020-06-28 19:21:34,604 INFO c.r.m.CtsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-28 19:21:35,637 DEBUG c.r.m.M.j.JwtTokenAuthorizationOncePerRequestFilter [restartedMain] Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+2020-06-28 19:21:36,437 INFO c.r.m.CtsApplication [restartedMain] Started CtsApplication in 2.073 seconds (JVM running for 464.441)
+2020-06-28 20:07:02,271 INFO c.r.m.CtsApplication [restartedMain] Starting CtsApplication on DELL-PC with PID 7704 (C:\Users\DELL\Desktop\Lesson_2\cts\target\classes started by DELL in C:\Users\DELL\Desktop\Lesson_2\cts)
+2020-06-28 20:07:02,271 INFO c.r.m.CtsApplication [restartedMain] Starting CtsApplication on DELL-PC with PID 7704 (C:\Users\DELL\Desktop\Lesson_2\cts\target\classes started by DELL in C:\Users\DELL\Desktop\Lesson_2\cts)
+2020-06-28 20:07:02,289 DEBUG c.r.m.CtsApplication [restartedMain] Running with Spring Boot v2.3.0.BUILD-SNAPSHOT, Spring v5.2.6.BUILD-SNAPSHOT
+2020-06-28 20:07:02,289 DEBUG c.r.m.CtsApplication [restartedMain] Running with Spring Boot v2.3.0.BUILD-SNAPSHOT, Spring v5.2.6.BUILD-SNAPSHOT
+2020-06-28 20:07:02,290 INFO c.r.m.CtsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-28 20:07:02,290 INFO c.r.m.CtsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-28 20:07:03,252 DEBUG c.r.m.M.j.JwtTokenAuthorizationOncePerRequestFilter [restartedMain] Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+2020-06-28 20:07:03,252 DEBUG c.r.m.M.j.JwtTokenAuthorizationOncePerRequestFilter [restartedMain] Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+2020-06-28 20:07:03,832 INFO c.r.m.CtsApplication [restartedMain] Started CtsApplication in 2.36 seconds (JVM running for 177.879)
+2020-06-28 20:07:03,832 INFO c.r.m.CtsApplication [restartedMain] Started CtsApplication in 2.36 seconds (JVM running for 177.879)
+2020-06-28 20:07:46,461 INFO c.r.m.CtsApplication [restartedMain] Starting CtsApplication on DELL-PC with PID 7704 (C:\Users\DELL\Desktop\Lesson_2\cts\target\classes started by DELL in C:\Users\DELL\Desktop\Lesson_2\cts)
+2020-06-28 20:07:46,464 DEBUG c.r.m.CtsApplication [restartedMain] Running with Spring Boot v2.3.0.BUILD-SNAPSHOT, Spring v5.2.6.BUILD-SNAPSHOT
+2020-06-28 20:07:46,465 INFO c.r.m.CtsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-28 20:07:47,404 DEBUG c.r.m.M.j.JwtTokenAuthorizationOncePerRequestFilter [restartedMain] Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+2020-06-28 20:07:47,936 INFO c.r.m.CtsApplication [restartedMain] Started CtsApplication in 1.63 seconds (JVM running for 221.982)
+2020-06-28 20:08:14,872 INFO c.r.m.CtsApplication [restartedMain] Starting CtsApplication on DELL-PC with PID 7704 (C:\Users\DELL\Desktop\Lesson_2\cts\target\classes started by DELL in C:\Users\DELL\Desktop\Lesson_2\cts)
+2020-06-28 20:08:14,872 INFO c.r.m.CtsApplication [restartedMain] Starting CtsApplication on DELL-PC with PID 7704 (C:\Users\DELL\Desktop\Lesson_2\cts\target\classes started by DELL in C:\Users\DELL\Desktop\Lesson_2\cts)
+2020-06-28 20:08:14,874 DEBUG c.r.m.CtsApplication [restartedMain] Running with Spring Boot v2.3.0.BUILD-SNAPSHOT, Spring v5.2.6.BUILD-SNAPSHOT
+2020-06-28 20:08:14,874 DEBUG c.r.m.CtsApplication [restartedMain] Running with Spring Boot v2.3.0.BUILD-SNAPSHOT, Spring v5.2.6.BUILD-SNAPSHOT
+2020-06-28 20:08:14,875 INFO c.r.m.CtsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-28 20:08:14,875 INFO c.r.m.CtsApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-28 20:08:15,991 DEBUG c.r.m.M.j.JwtTokenAuthorizationOncePerRequestFilter [restartedMain] Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+2020-06-28 20:08:15,991 DEBUG c.r.m.M.j.JwtTokenAuthorizationOncePerRequestFilter [restartedMain] Filter 'jwtTokenAuthorizationOncePerRequestFilter' configured for use
+2020-06-28 20:08:17,512 INFO c.r.m.CtsApplication [restartedMain] Started CtsApplication in 2.782 seconds (JVM running for 251.558)
+2020-06-28 20:08:17,512 INFO c.r.m.CtsApplication [restartedMain] Started CtsApplication in 2.782 seconds (JVM running for 251.558)

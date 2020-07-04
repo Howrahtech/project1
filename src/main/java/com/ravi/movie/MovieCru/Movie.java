@@ -45,7 +45,7 @@ public class Movie {
 		super();
 		this.id = id;
 		this.movieName = movieName;
-		this.desc = desc;
+		this.desc = desc;               
 		this.rdate = rdate;
 		this.rate = rate;
 		this.imgUrl = imgUrl;

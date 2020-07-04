@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,6 +19,8 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 @CrossOrigin(origins="http://localhost:6200")
 @RestController
 public class MovieJPAResource {
+	
+//	private static final Logger logger = LogManager.getLogger(MovieJPAResource.class);
 
 	@Autowired
 	private MovieService movieService ;
@@ -28,6 +31,12 @@ public class MovieJPAResource {
 	
 	@GetMapping(path="/jpa/users/movie")
 	public List<Movie> getAllMovie(){
+		
+		
+		List<Movie> movie=movieJpaRepsitory.findAll();
+		if(movie==null) {
+	         throw new RecordNotFoundException("No movie Available ");
+	    }
 		
 	return	movieJpaRepsitory.findAll();
 	//	return movieService.findAll();
@@ -40,6 +49,13 @@ public class MovieJPAResource {
 	
 	@GetMapping(path="/jpa/users/movie/{id}")
 	public Movie getMovie(@PathVariable long id){
+		try {
+		Movie  movie=movieJpaRepsitory.findById(id).get();
+		}catch (Exception e) {
+			// TODO: handle exception
+			 throw new RecordNotFoundException("Invalid movie id : " + id);
+		}
+		
 		
 		return movieJpaRepsitory.findById(id).get();
 	//	return movieService.findById(id);
@@ -48,6 +64,18 @@ public class MovieJPAResource {
 	@DeleteMapping("/jpa/users/movie/{id}")
 	public  ResponseEntity<Void>  deleteMovie(@PathVariable long id) {
 		
+		try {
+			Movie  movie=movieJpaRepsitory.findById(id).get();
+			}catch (Exception e) {
+				// TODO: handle exception
+				 throw new RecordNotFoundException("Invalid movie id : " + id);
+			}
+		/*
+		 * Movie movie=movieJpaRepsitory.findById(id).get();
+		 * 
+		 * if(movie == null) { throw new
+		 * RecordNotFoundException("Invalid employee id : " + id); }
+		 */
 		//Movie movie	=movieService.deleteById(id);
 		movieJpaRepsitory.deleteById(id);
 		/*
@@ -61,6 +89,13 @@ public class MovieJPAResource {
 	public  ResponseEntity<Movie>  updateMovie(@RequestBody Movie movie,@PathVariable long id) {
 		
 		
+		try {
+			Movie  movie1=movieJpaRepsitory.findById(id).get();
+			}catch (Exception e) {
+				// TODO: handle exception
+				 throw new RecordNotFoundException("Invalid movie id : " + id);
+			}
+		
 		movieJpaRepsitory.save(movie);
 		
 		//Movie updatedMovie=movieService.save(movie);
@@ -68,7 +103,7 @@ public class MovieJPAResource {
 	}
 	
 	@PostMapping("/jpa/users/movie")
-	public  ResponseEntity<Movie>  createMovie(@RequestBody Movie movie) {
+	public  ResponseEntity<Movie>  createMovie(@Validated @RequestBody Movie movie) {
 		
 		//Movie createdMovie=movieService.save(movie);
 		
